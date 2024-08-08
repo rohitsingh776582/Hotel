@@ -1,0 +1,853 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+}
+
+body {
+
+    background-color: cornsilk;
+}
+
+.nav {
+    /* 
+    border: 2px solid black; */
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    position: relative;
+    color: white;
+
+}
+
+.nav1 {
+    /* 
+    border: 2px solid black; */
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+.booking {
+    /* background-color: darkgray; */
+    width: 40%;
+    padding-left: 10vw;
+
+}
+
+.right-nav {
+
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 50%;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+.right-nav p {
+
+    font-weight: 900;
+}
+
+.right-nav img {
+
+    height: 2vw;
+    width: 2vw
+}
+
+.btn {
+
+    height: 50%;
+    width: 15%;
+    border-radius: 0.4vw;
+    color: blue;
+}
+
+.p {
+
+    font-size: large;
+    font-weight: 900;
+    color: white;
+}
+
+.book {
+
+    font-weight: 900;
+    font-size: 2vw;
+    color: white;
+}
+
+/*  nav2 */
+
+
+.nav2 {
+
+    /* border: 2px solid red; */
+    height: 49%;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+
+
+
+.car {
+
+
+    border: solid white 2px;
+    border-radius: 35%;
+    width: 7%;
+    display: flex;
+    height: 2.6vw;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+    font-weight: 900;
+
+
+}
+
+.car i {
+
+    color: white;
+}
+
+.car p {
+
+    color: white;
+}
+
+
+
+.flight {
+
+    /* border: 2px solid red; */
+    color: white;
+    display: flex;
+    gap: 0.5vw;
+    font-weight: 900;
+}
+
+.flights {
+    /* border: 2px solid white; */
+    color: white;
+    display: flex;
+    gap: 0.5vw;
+    font-weight: 900;
+}
+
+.Attractions {
+
+    color: white;
+    display: flex;
+    gap: 0.5vw;
+    font-weight: 900;
+}
+
+.car-rentals {
+
+    color: white;
+    display: flex;
+    gap: 0.5vw;
+    font-weight: 900;
+}
+
+
+.Airport-taxis {
+
+    color: white;
+    display: flex;
+    gap: 0.5vw;
+    font-weight: 900;
+
+}
+
+.tr {
+
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.cozy-nights {
+    background-image: url("./image/hd.png");
+    background-size: cover;
+    width: 90%;
+    height: 20vw;
+    /* border: 2px solid black; */
+    position: relative;
+    padding-left: 10vw;
+    padding-top: 4vw;
+
+}
+
+.Wanderlust-days {
+    /* 
+   border: 2px solid blanchedalmond; */
+    width: 30%;
+
+}
+
+.choosen {
+
+    color: white;
+    font-size: 1.5vw;
+
+}
+
+.and {
+
+    font-size: 3vw;
+    font-weight: 900;
+    color: white;
+    text-shadow: 1vw;
+}
+
+.holiday {
+
+    height: 3vw;
+    width: 45%;
+    border: none;
+    border-radius: 0.2vw;
+    background-color: aqua;
+    color: white;
+    font-weight: 900;
+}
+
+.where-are-you-gonig {
+
+    display: flex;
+    margin-top: 2.5vw;
+    width: 80%;
+    height: 15%;
+    background-color: gold;
+    align-items: center
+}
+
+.one {
+
+
+    padding-left: 1vw;
+    /* border: 2px solid black; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    background-color: white;
+    height: 80%;
+}
+
+.two {
+    /* border: 2px solid black; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    margin-left: 0.1vw;
+    padding-left: 1vw;
+    height: 80%;
+    background-color: white;
+}
+
+.three {
+    /* border: 2px solid black; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    margin-left: 0.1vw;
+    padding-left: 1vw;
+    height: 80%;
+    background-color: white;
+}
+
+.search85 {
+
+    margin-left: 0.5vw;
+    height: 80%;
+    width: 19.5%;
+    border-radius: 5px;
+    border: none;
+    /* background-color: rgb(6, 242, 242); */
+    color: white;
+    font-weight: 900;
+    font-size: 1vw;
+    background-color: aqua;
+
+}
+
+.i-am-traveling-for {
+
+    margin-top: 3vw;
+    /* border: 2px solid black; */
+    margin-left: 10vw;
+    display: flex;
+    gap: 2.5vw;
+
+}
+
+.check {
+
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+.work {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.for {
+
+    font-size: 1vw;
+}
+
+.offers {
+
+    margin-top: 2vw;
+    margin-left: 10vw;
+    width: 20%;
+    /* border: 2px solid black; */
+}
+
+.promotions {
+
+    margin-top: 2vw;
+    margin-left: 10vw;
+}
+
+
+.fly-away {
+
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 1vw;
+    justify-content: center;
+    gap: 0.8vw;
+
+}
+
+.flig {
+    /* 
+    border: 2px solid rebeccapurple; */
+    display: flex;
+    align-items: center;
+    width: 40%;
+    /* box-shadow: 5px 10px 20px  #888888 inset; */
+}
+
+.you-dream {
+
+    /* border: 2px solid black; */
+    width: 180%;
+    height: 60%;
+}
+
+.img {
+
+
+    /* border:  2px solid black; */
+    height: 100%;
+    width: 90%;
+}
+
+.image-radious {
+
+    border-radius: 10px;
+}
+
+.you-home {
+
+    /* border: 2px solid red; */
+    display: flex;
+    align-self: center;
+    /* box-shadow: 5px 10px 20px  #888888 inset; */
+
+
+}
+
+.extended-stay {
+
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 1vw;
+
+}
+
+
+.search-for-flights {
+
+    height: 28%;
+    width: 40%;
+    border: none;
+    border-radius: 0.5vw;
+    background-color: aqua;
+}
+
+.Find-a-stay {
+
+    background-color: aqua;
+    border: none;
+    height: 15%;
+    width: 35%;
+    border-radius: 0.5vw;
+}
+
+.Browse-by-your-dream-holiday {
+    /* 
+     border: 2px solid blue; */
+    width: 60%;
+    margin-left: 10%;
+}
+
+.image {
+
+    background-color: bisque;
+    display: flex;
+    margin-top: 3vw;
+    /* border: 2px solid black; */
+    width: 73%;
+    margin-left: 10vw;
+    justify-content: space-between;
+}
+
+.radious {
+    border-radius: 10px;
+}
+
+.img1 {
+
+    border-radius: 10px;
+    border: 5px solid white;
+
+}
+
+.most-popular {
+
+    /* border: 2px solid red; */
+    width: 80%;
+    margin-top: 2vw;
+    margin-left: 10vw;
+}
+
+
+.new-delhi {
+
+    /* border: 2px solid rebeccapurple; */
+    height: 80%;
+    display: flex;
+    width: 83%;
+    margin-left: 10vw;
+    justify-content: space-between;
+    background-color: whitesmoke;
+
+}
+
+.delhi img {
+
+    height: 20vw;
+    width: 40vw;
+
+
+}
+
+.bangalor img {
+
+    height: 20vw;
+    width: 40vw;
+
+
+
+}
+
+
+
+.flag21 {
+
+    height: 1vw;
+    width: 1vw;
+}
+
+.small {
+
+    /* border: 2px solid black; */
+    width: 10px;
+}
+
+.bangala {
+
+    position: relative;
+    top: 3vw;
+    /* border: 2px solid black; */
+}
+
+.bangala p {
+
+    color: gold;
+    font-size: 2vw;
+    font-weight: 900;
+
+}
+
+.bangal p {
+    /* 
+    border: 2px solid black; */
+    position: relative;
+    top: 2.5vw;
+    color: gold;
+    font-size: 2vw;
+    font-weight: 900;
+
+}
+
+.image-section2 {
+
+    /* border: 2px solid blue; */
+    margin-top: 1vw;
+    width: 85%;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.maharast {
+
+    height: 20vw;
+    width: 27vw;
+    border-radius: 10px;
+}
+
+.Chennai {
+
+
+    border-radius: 10px;
+
+}
+
+.Chennai p {
+
+    position: absolute;
+    margin-top: 1vw;
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 2vw;
+    margin-left: 1vw;
+    color: blue;
+    font-weight: 900;
+}
+
+.Explore-india {
+
+    /* border: 2px solid red; */
+    width: 80%;
+    margin-left: 10vw;
+    margin-top: 2vw;
+
+}
+
+.Explor {
+    /* 
+    border: 2px solid red; */
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+.popular {
+
+    font-size: 1.5vw;
+}
+
+.North-goa {
+    /* border: 2px solid black; */
+    display: flex;
+    width: 85%;
+    margin-left: 10vw;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+    background-color: white;
+}
+
+.sort-image {
+
+    height: 11vw;
+    width: 12.5vw;
+    border-radius: 10px;
+}
+
+
+
+.both {
+
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+
+
+.Quick-easy {
+
+    /* border: 2px solid blue; */
+    margin-top: 1vw;
+    width: 80%;
+    margin-left: 10vw;
+}
+
+
+.Quick-and-easy {
+
+    font-size: 1.8vw;
+    font-weight: 900;
+}
+
+.dil {
+
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin-left: 10vw;
+    margin-top: 1vw;
+    display: flex;
+    height: 3vw;
+    align-items: center;
+    gap: 2vw;
+
+}
+
+.Outdoors {
+    border: 2px solid blue;
+    width: 10%;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    height: 3vw;
+    border-radius: 30%;
+    justify-content: center;
+    color: blue;
+
+}
+
+.Romance {
+
+    width: 10%;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    height: 3vw;
+    justify-content: center;
+    color: red;
+
+}
+
+.city {
+    width: 10%;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    height: 3vw;
+    justify-content: center;
+
+}
+
+.Beach {
+    width: 10%;
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    height: 3vw;
+    justify-content: center;
+}
+
+.himachal {
+    /* 
+    border: 2px solid black; */
+    display: flex;
+    width: 85%;
+    margin-left: 10vw;
+    justify-content: space-evenly;
+    margin-top: 2vw;
+    /* background-color: white; */
+}
+
+.Get-inspiration {
+    /* 
+    border: 2px solid red; */
+    width: 85%;
+    height: 32vw;
+    margin-top: 2vw;
+    margin-left: 10vw;
+}
+
+.get {
+    /* border: 2px solid black; */
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+
+.new-yewr301 {
+
+    height: 25vw;
+    width: 36vw;
+    margin-top: 1vw;
+    border-radius: 10px;
+}
+
+.Eve-in {
+
+    /* border: 2px solid black; */
+    position: absolute;
+    margin-top: -8vw;
+    color: white;
+    margin-left: 1vw;
+
+}
+
+.new-york {
+
+    font-size: 2vw;
+    font-weight: 900;
+}
+
+.Ringpin {
+
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.new-year {
+
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.rain {
+    /* 
+    border: 2px solid blue; */
+    height: 20vw;
+    width: 20vw;
+    margin-top: 1vw;
+    border-radius: 10px;
+}
+
+.vest-65 {
+
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+
+.glob {
+
+    margin-top: 2vw;
+    width: 70%;
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    height: 16vw;
+    border: 2px solid rosybrown;
+}
+
+
+
+.get-instant {
+
+    width: 70%;
+}
+
+.glob-sign {
+
+    display: flex;
+    gap: 1vw;
+}
+
+.glob-signbutton {
+
+    height: 2vw;
+    width: 5vw;
+    background-color: aqua;
+    border: none;
+    border-radius: 0.5vw;
+}
+
+/* Stay at our top unique properties */
+
+.Stay-at-our {
+
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin-left: 10vw;
+    margin-top: 1vw;
+    /* background-color: gainsboro; */
+}
+
+.from-castles {
+
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.from-castles-image {
+
+    background-color: white;
+}
+
+.from-castles-image img {
+
+
+    height: 15vw;
+    width: 19vw;
+    border-radius: 10px;
+}
+
+.Superb9 {
+
+    display: flex;
+    gap: 8px;
+}
+
+.Superb9 div {
+
+    height: 25px;
+    width: 25px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.stay-at {
+
+    font-size: 1.5vw;
+    /* background-color: aqua; */
+    font-weight: 900;
+}
+
+.from14741 {
+
+    padding-left: 8vw;
+
+}
+
+.from14741 p {
+
+    font-size: 14px;
+}
+
+.bold-number {
+
+    font-size: 19px;
+    font-weight: 900;
+
+}
+
+.bold-number i {
+
+    font-size: 15px;
+}
